@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>test447</groupId>
-  <artifactId>keycuts</artifactId>
-  <name>KeyCuts</name>
+  <groupId>bencalegari</groupId>
+  <artifactId>slay-the-selector</artifactId>
+  <name>Slay The Selector</name>
   <version>0.0.1</version>
   <description>Adds keyboard shortcuts (like the card select hotkeys) to nearly everything in the game.</description>
   <build>
-    <finalName>KeyCuts</finalName>
+    <finalName>SlayTheSelector</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
         <version>2.4.2</version>
         <executions>
           <execution>
-            <id>keycuts</id>
+            <id>bencalegari</id>
             <phase>package</phase>
             <goals>
               <goal>shade</goal>
@@ -22,7 +22,7 @@
             <configuration>
               <filters>
                 <filter>
-                  <artifact>test447:keycuts</artifact>
+                  <artifact>bencalegari:slay-the-selector</artifact>
                 </filter>
               </filters>
             </configuration>
@@ -39,9 +39,7 @@
               <goal>run</goal>
             </goals>
             <configuration>
-              <target>
-                <copy />
-              </target>
+              <target />
             </configuration>
           </execution>
         </executions>
@@ -54,26 +52,28 @@
       <artifactId>slaythespire</artifactId>
       <version>017</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/desktop-1.0.jar</systemPath>
+      <systemPath>${user.home}/Library/Application Support/Steam/steamapps/common/SlayTheSpire/SlayTheSpire.app/Contents/Resources/desktop-1.0.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
       <artifactId>ModTheSpire</artifactId>
       <version>2.7.0</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/ModTheSpire.jar</systemPath>
+      <systemPath>${user.home}/Library/Application Support/Steam/steamapps/workshop/content/646570/1605060445/ModTheSpire.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
       <artifactId>BaseMod</artifactId>
-      <version>2.14.0</version>
+      <version>5.54.1</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/BaseMod.jar</systemPath>
+      <systemPath>${user.home}/Library/Application Support/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar</systemPath>
     </dependency>
   </dependencies>
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 </project>
 

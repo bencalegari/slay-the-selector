@@ -1,8 +1,10 @@
-# KeyCuts (a Slay the Spire mod by test447)
+# slay-the-selector (A for of Keycuts, a Slay the Spire mod by test447)
 
 Slay the Spire has a wonderful feature called `Card Quick Select Keys` that lets you use your keyboard to select cards in combat. However, despite this amazing addition, the rest of Slay the Spire's interfaces must still be navigated with the player's mouse.
 
 KeyCuts allows the player to navigate the rest of the game's interfaces with just their `Card Quick Select Keys` in order to speed up gameplay in places like stores, dialogs, card selection, and combat rewards.
+
+The goal of this fork is to allow you to select yourself or enemies with those cards via keyboard along with everything else. 
 
 ## Features
 

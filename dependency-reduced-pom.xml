@@ -39,7 +39,9 @@
               <goal>run</goal>
             </goals>
             <configuration>
-              <target />
+              <target>
+                <copy />
+              </target>
             </configuration>
           </execution>
         </executions>
@@ -57,7 +59,7 @@
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
       <artifactId>ModTheSpire</artifactId>
-      <version>2.7.0</version>
+      <version>3.30.3</version>
       <scope>system</scope>
       <systemPath>${user.home}/Library/Application Support/Steam/steamapps/workshop/content/646570/1605060445/ModTheSpire.jar</systemPath>
     </dependency>

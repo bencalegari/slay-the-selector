@@ -18,7 +18,7 @@
         <dependency>
             <groupId>com.evacipated.cardcrawl</groupId>
             <artifactId>ModTheSpire</artifactId>
-            <version>2.7.0</version>
+            <version>3.30.3</version>
             <scope>system</scope>
             <systemPath>${user.home}/Library/Application Support/Steam/steamapps/workshop/content/646570/1605060445/ModTheSpire.jar</systemPath>
         </dependency>
@@ -74,7 +74,7 @@
                             <target>
                                 <!-- Change to match your mods name.
                                      This moves your mod into a common folder where all mods you make can go. -->
-<!--                                <copy file="target/SlayTheSelector.jar" tofile="../_ModTheSpire/mods/SlayTheSelector.jar"/>-->
+                                <copy file="target/SlayTheSelector.jar" tofile="${user.home}/Library/Application Support/Steam/steamapps/common/SlayTheSpire/SlayTheSpire.app/Contents/Resources/mods/SlayTheSelector.jar"/>
                             </target>
                         </configuration>
                         <goals>

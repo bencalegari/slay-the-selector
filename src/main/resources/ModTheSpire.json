@@ -1,10 +1,10 @@
 {
-  "modid": "test447_keycuts",
-  "name": "KeyCuts",
-  "author_list": ["test447"],
+  "modid": "slayTheSelector",
+  "name": "SlayTheSelector",
+  "author_list": ["bencalegari, test447"],
   "description": "Adds keyboard shortcuts (like the card quick select keys) to nearly everything in the game.",
   "version": "0.1",
-  "sts_version": "06-15-2018",
-  "mts_version": "2.7.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.30.3",
   "dependencies": ["basemod"]
 }
